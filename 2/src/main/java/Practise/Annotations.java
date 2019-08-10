@@ -8,7 +8,7 @@ import junit.framework.Assert;
 
 public class Annotations {
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void TC001()
 	{
 		String expected="Arka";
