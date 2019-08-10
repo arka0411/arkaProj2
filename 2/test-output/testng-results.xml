@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to:https://www.facebook.com/]]>
+    </line>
+    <line>
+      <![CDATA[finding element :]]>
+    </line>
+    <line>
+      <![CDATA[By.xpath: //input[@name='email']]]>
+    </line>
+    <line>
+      <![CDATA[finding element :]]>
+    </line>
+    <line>
+      <![CDATA[By.xpath: //input[@name='pass']]]>
+    </line>
+    <line>
+      <![CDATA[finding element :]]>
+    </line>
+    <line>
+      <![CDATA[By.xpath: //input[@value='Log In']]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element:]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on XP (dd0f95bc316e1d3f7a80cf45a9f1b4bd)] -> xpath: //input[@value='Log In']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41540" started-at="2019-07-23T05:32:33Z" finished-at="2019-07-23T05:33:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41540" started-at="2019-07-23T05:32:33Z" finished-at="2019-07-23T05:33:14Z">
+      <class name="WendriverEventListener.Facebook">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WendriverEventListener.Facebook@26be92ad]" name="setUp" is-config="true" duration-ms="3989" started-at="2019-07-23T05:32:33Z" finished-at="2019-07-23T05:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:WendriverEventListener.Facebook@26be92ad]" name="Login" duration-ms="37474" started-at="2019-07-23T05:32:37Z" finished-at="2019-07-23T05:33:14Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'ARKA', ip: '192.168.1.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_192'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\ARKADU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd0f95bc316e1d3f7a80cf45a9f1b4bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'ARKA', ip: '192.168.1.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_192'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\ARKADU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd0f95bc316e1d3f7a80cf45a9f1b4bd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy7.getText(Unknown Source)
+at WendriverEventListener.WebDriverListener.afterClickOn(WebDriverListener.java:89)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+at com.sun.proxy.$Proxy5.afterClickOn(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:418)
+at WendriverEventListener.Facebook.Login(Facebook.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to:https://www.facebook.com/]]>
+            </line>
+            <line>
+              <![CDATA[finding element :]]>
+            </line>
+            <line>
+              <![CDATA[By.xpath: //input[@name='email']]]>
+            </line>
+            <line>
+              <![CDATA[finding element :]]>
+            </line>
+            <line>
+              <![CDATA[By.xpath: //input[@name='pass']]]>
+            </line>
+            <line>
+              <![CDATA[finding element :]]>
+            </line>
+            <line>
+              <![CDATA[By.xpath: //input[@value='Log In']]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element:]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on XP (dd0f95bc316e1d3f7a80cf45a9f1b4bd)] -> xpath: //input[@value='Log In']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- WendriverEventListener.Facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
