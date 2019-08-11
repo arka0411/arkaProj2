@@ -14,10 +14,7 @@ public class Annotations {
 		String expected="Arka";
 		String actual="Dutta";
 		
-		SoftAssert sa=new SoftAssert();
-		sa.assertEquals(actual, expected);
-		System.out.println("After soft assert");
-		sa.assertAll();
+		System.out.println("Expected");
 		
 		
 	}
